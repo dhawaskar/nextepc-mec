@@ -1,0 +1,11 @@
+{
+  "Message": "WriteReplaceWarningRequest",
+  "MessageIdentifier": 4370,
+  "SerialNumber": 12280,
+  "RepetitionPeriod": 3,
+  "NumberofBroadcastRequest": 3,
+  "DataCodingScheme": 1,
+  "WarningMessageContents": "hello world!!"
+}
+
+

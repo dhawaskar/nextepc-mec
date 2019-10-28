@@ -1,0 +1,3 @@
+#!/bin/sh
+echo \{ \"name\": \"$1\"\, \"ue_ip\": \"$2\"\, \"dl_tid\": $3\, \"ul_tid\": $4 } > post_mec_ue_data.txt
+curl --silent -X POST -d @post_mec_ue_data.txt --header 'Content-type: application/json' --header 'Accept: application/json' -L 'http://192.168.5.161:8888/api/mec/ue' > /dev/null

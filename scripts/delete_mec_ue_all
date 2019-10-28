@@ -1,0 +1,2 @@
+#!/bin/sh
+curl --silent -X DELETE --header 'Accept: application/json' -L http://192.168.5.161:8888/api/mec/ue/ > /dev/null
